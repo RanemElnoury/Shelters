@@ -1,0 +1,63 @@
+.home{
+  background-image: url(../img/SS-Episode-15.png);
+  background-size: cover;
+  height: 700px;
+}
+.cont{
+  background-color: #f9f9ff;
+  position: relative;
+}
+/* .vertical-center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
+.text{
+  font-weight: 600;
+  color: #ffff;
+}
+.btn{
+  font-size: 12px;
+  border-radius:0;
+}
+.btn:hover{
+  color: #ffff;
+  background-color:rgb(0, 0, 0,0);
+}
+.p-home{
+  color: #ffff;
+}
+
+.div-form{
+  background-color: #f9f9ff;
+  border-radius: 50px;
+  margin-left: 20%;
+
+}
+h1{
+color: black;
+text-align: center;
+}
+#label-photo{
+  display: block;
+  background:#75a7d3;
+  color: aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+#input-file{
+  display:none;
+}
+label{
+  color:rgb(51, 47, 47);
+}
+.btn-1{
+  background-color:#5489b7 ;
+  border: none;
+}
+.btn-1:hover{
+  color: #5489b7;
+}

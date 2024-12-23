@@ -1,0 +1,80 @@
+body{
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .home{
+    height:750px;
+    background-image: url(../uploads/R.jpeg);
+    background-size: cover;
+  }
+  .vertical-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  h1{
+    font-weight: 600;
+    color: #ffff;
+  }
+  .btn{
+    font-size: 12px;
+    border-radius:0;
+  }
+  .btn:hover{
+    color: #ffff;
+    background-color:rgb(0, 0, 0,0);
+  }
+  .p-home{
+    color: #ffff;
+  }
+  .cont{
+    background-color: #f9f9ff;
+  }
+  .btn2{
+    font-size: 12px;
+    border-radius:0;
+    color: #ffff;
+    line-height: 25px;
+  }
+  .btn2:hover{
+    color: #596258;
+    background-color:rgba(0, 0, 0,0)
+  }
+  .s-btn{
+    background-color: #57b846;
+    color: #ffff;
+  }
+  .s-btn:hover{
+    color: #57b846;
+  }
+  .div-s{
+    background-color: #f9f9ff;
+    position: relative;
+    border-radius: 15px;
+  }
+  .div-img{
+    
+    border-radius: 50px;
+  }
+  .icons{
+  color: #777777;
+  font-size: 50px;
+  }
+  .icons:hover{
+    color: #57b846;
+  }
+  .divs{
+    text-decoration: none;
+  }
+  .header-pic{
+    background-image:url(../img/dog-and-child-on-grass-900x600.jpg);
+    background-size: cover;
+  }
+  .header-layer{
+    background-color:rgba(0, 250, 42, 0.65);
+  }
+  
+  
+  

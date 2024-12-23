@@ -1,0 +1,24 @@
+
+.div-s{
+    background-color: #f9f9ff;
+    border-radius: 50px;
+  
+  }
+  
+  
+  .btn{
+    background-color: rgba(71, 211, 85, 0.76);
+    border: none;
+    border-radius: 5px;
+    color: #f9f9ff;
+  }
+  
+  .btn:hover{
+    background-color:#f9f9ff;
+    color:rgba(71, 211, 85, 0.76);
+    
+  }
+  img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }

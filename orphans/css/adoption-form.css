@@ -1,0 +1,46 @@
+body{
+    background-image: url(../uploads/Photo-Jun-15-10-42-26-AM-scaled.jpg);
+    background-size: cover;
+  }
+  .div-form{
+    background-color: #f9f9ff;
+    border-radius: 50px;
+  
+  }
+  
+  .card{
+    background-color: #f9f9ff;
+    color: #3333;
+  
+    
+  }
+  .card img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  
+  }
+  #label-photo{
+    display: block;
+    background:#75a7d3;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  #input-file{
+    display:none;
+  }
+  label{
+    color: #3333;
+  }
+  .btn-1{
+    background-color:#5489b7 ;
+    border: none;
+  }
+  .btn-1:hover{
+    color: #5489b7;
+  }
+  .btn:hover{
+    background-color: #ffff;
+  }

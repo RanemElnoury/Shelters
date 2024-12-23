@@ -1,0 +1,84 @@
+.home{
+    background-image: url(../uploads/714083_051115-cc-timeout-thumb\ \(1\).jpg);
+    background-size: cover;
+    height: 700px;
+  }
+  .vertical-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  h1{
+    font-weight: 600;
+    color: #ffff;
+  }
+  .btn{
+    font-size: 12px;
+    border-radius:0;
+  }
+  .btn:hover{
+    color: #ffff;
+    background-color:rgb(0, 0, 0,0);
+  }
+  .p-home{
+    color: #ffff;
+  }
+  
+  /* Start Our Work */
+  .our-work {
+    background-color: var(--section-color);
+  }
+  .our-work ul .active {
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+  }
+  .our-work ul li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  .our-work ul li:not(.active):hover {
+    color: var(--red-color);
+  }
+  .our-work .box {
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+  .our-work .box::before {
+    content: attr(data-work);
+    position: absolute;
+    background-color: rgba(75, 235, 91, 0.76);
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+    font-size: 1.5rem;
+    transform: translateX(calc(-100% - 5px));
+  }
+  .our-work .box:hover::before {
+    transform: translateX(0);
+  }
+  /* End Our Work */
+  /* Start Team */
+  .team {
+    background-color: var(--section-color);
+  }
+  .team h2 {
+    color: var(--yellow-color);
+  }
+  .team .box h4 {
+    background-color: var(--green-color);
+  }
+  /* End Team */
+  /* Start Project */
+  .project {
+    background-color: var(--dark-color);
+  }
+  /* End Project */
+  
